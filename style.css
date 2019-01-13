@@ -12,6 +12,10 @@ body{
     font-family: 'Abel', sans-serif;
  }
 
+ a{
+    text-decoration: none;
+    color: white;
+}
  .navbar-container{
      background-color: rgb(75, 57, 75, 0.5);
      position: relative;
@@ -19,7 +23,6 @@ body{
      height: 100vh;
      opacity: 90%;
      color: white;
-
  }
 
  .phonenumber{
@@ -61,11 +64,12 @@ body{
      display: inline-block;
      bottom: 20px;
      right: 20px;
-     color: black;
+     color: white;
      background-color: rgb(75, 57, 75, 0.5);
      width: 60vw;
+     padding: 10px;
  }
- 
+
 .some-button a{
     text-decoration: none;
 }

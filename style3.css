@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    height:100%;
+    width:100%;
+    background-image:url(img/IMG_3238.JPG);/*your background image*/  
+    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/  
+    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+    /*css hack for ie*/     
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+    -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+    font-family: 'Abel', sans-serif;
+ }
+
+ a{
+     text-decoration: none;
+     color: white;
+ }
+
+ .navbar-container{
+     background-color: rgb(75, 57, 75, 0.5);
+     position: relative;
+     width: 25%;
+     height: 100vh;
+     opacity: 90%;
+     color: white;
+
+ }
+
+ .phonenumber{
+     position: relative;
+     font-size: 80%;
+     margin-top: -30%;
+     text-align: center;
+ }
+
+ .navigation{
+     display: inline-block;
+     width: 100%;
+     text-align: center;
+     padding: 20px 0;
+     font-size: 80%;
+ }
+
+
+ .some{
+     
+     width: 100%;
+     position: absolute;
+     bottom: 0px;
+     font-size: 80%;
+     text-align: center
+ }
+
+ .some-button{
+     position: relative;
+     size: 2x;
+     padding: 10px;
+     margin: 5px;
+     text-decoration: none;
+     color: white;
+     cursor: pointer;
+ }
+
+ .info-box-large{
+     position: absolute;
+     display: inline-block;
+     bottom: 20px;
+     right: 20px;
+     color: white;
+     background-color: rgb(75, 57, 75, 0.5);
+     width: 60vw;
+     padding: 10px;
+ }
+
+.some-button a{
+    text-decoration: none;
+}
